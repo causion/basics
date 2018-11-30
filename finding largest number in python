@@ -1,0 +1,3 @@
+num=[1,-4,8,10]
+h=max(num)
+print(h)

@@ -1,0 +1,15 @@
+def calc():
+   a = int(input("Enter a number: "))
+   b = int(input("Enter a number: "))
+   choice = input("Enter choice(1(add),2(sub),3(mul),4(div)):")
+   if choice == '1':
+      print(a+b)
+   elif choice == '2':
+      print(a-b)
+   elif choice == '3':
+      print(a*b)
+   elif choice == '4':
+      print(a/b)
+   else:
+      print("Invalid input")   
+calc() 

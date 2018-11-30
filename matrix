@@ -1,0 +1,21 @@
+a=[]
+b=[]
+c=[]
+for i in range(0,3):
+    m=i+1
+    a.append(m)
+for j in a:
+    n=j**2
+    b.append(n)
+for k in b:
+    o=k**2
+    c.append(o)
+print(a)
+print(b)
+print(c)
+
+'''
+output:
+[1, 2, 3]
+[1, 4, 9]
+[1, 16, 81]'''
